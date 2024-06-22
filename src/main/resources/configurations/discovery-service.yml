@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: discoveryservice.railway.internal
+    hostname: discovery-service.railway.internal
   client:
     registerWithEureka: false
     fetchRegistry: false
