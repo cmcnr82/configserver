@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    hostname: discoveryservice.railway.internal
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: https://${eureka.instance.hostname}/eureka/
+
+server:
+  port: 8761
